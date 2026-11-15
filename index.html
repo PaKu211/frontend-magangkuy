@@ -104,30 +104,7 @@
         </footer>
 
     </div>
-
-    <script>
-        const password = document.getElementById("password");
-        const toggle = document.getElementById("togglePassword");
-
-        toggle.addEventListener("click", function () {
-            if (password.type === "password") {
-                password.type = "text";
-                toggle.textContent = "Sembunyikan";
-            } else {
-                password.type = "password";
-                toggle.textContent = "Tampilkan";
-            }
-        });
-
-        document.getElementById("loginForm").addEventListener(
-            "submit",
-            function (event) {
-                event.preventDefault();
-                alert("Form login siap dihubungkan ke backend.");
-            }
-        );
-    </script>
-
+    <script src="script.js"></script>
 </body>
 </html>
 
