@@ -33,14 +33,6 @@ if (passwordInput && togglePassword) {
         );
     });
 }
-/* 
- * Responsive Design
- * Mengubah layout desktop dua kolom
- * menjadi satu kolom untuk Android dan tablet.
- */
-@media (max-width: 768px) {
-    /* CSS mobile yang sudah kamu buat */
-}
 // Validasi dan simulasi proses login
 if (loginForm) {
     loginForm.addEventListener("submit", function (event) {
@@ -56,4 +48,5 @@ if (loginForm) {
         alert("Form login berhasil divalidasi. Backend belum tersedia.");
     });
 }
+
 
